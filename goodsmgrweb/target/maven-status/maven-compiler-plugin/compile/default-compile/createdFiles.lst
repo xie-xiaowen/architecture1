@@ -1,0 +1,7 @@
+com\xxw\architecture1\goodsmgr\web\GoodsWebModel.class
+com\xxw\architecture1\goodsmgr\dao\GoodsDAO.class
+com\xxw\architecture1\goodsmgr\vo\GoodsModel.class
+com\xxw\architecture1\goodsmgr\vo\GoodsQueryModel.class
+com\xxw\architecture1\goodsmgr\web\GoodsController.class
+com\xxw\architecture1\goodsmgr\service\IGoodsService.class
+com\xxw\architecture1\goodsmgr\service\GoodsService.class

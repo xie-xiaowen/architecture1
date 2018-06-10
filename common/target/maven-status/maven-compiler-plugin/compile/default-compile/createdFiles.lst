@@ -1,0 +1,10 @@
+com\xxw\architecture1\common\service\IBaseService.class
+com\xxw\architecture1\common\web\BaseWebModel.class
+com\xxw\architecture1\common\dao\BaseDAO.class
+com\xxw\architecture1\common\vo\BaseModel.class
+com\xxw\pageutil\ReflectHelper.class
+com\xxw\pageutil\PagePlugin.class
+com\xxw\util\json\JsonHelper.class
+com\xxw\architecture1\common\service\BaseService.class
+com\xxw\pageutil\Page.class
+com\xxw\util\format\DateFormatHelper.class
