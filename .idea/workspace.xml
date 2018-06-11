@@ -6,7 +6,155 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="752fda6c-2b59-4cb3-964e-475566497067" name="Default" comment="" />
+    <list default="true" id="752fda6c-2b59-4cb3-964e-475566497067" name="Default" comment="init model success">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/dao/CartDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/dao/CartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/service/ICartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/vo/CartModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/vo/CartQueryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/web/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/web/CartWebModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/resources/myBatisConf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/jsp/cart/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/jsp/cart/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/jsp/cart/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/jsp/cart/query.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/jsp/cart/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/jsp/cart/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/static/css/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/static/js/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/static/js/jquery-1.11.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/tags/page.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goods/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/dao/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/dao/OrderDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/dao/OrderDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/dao/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/service/IOrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/service/OrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/vo/OrderDetailModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/vo/OrderDetailQueryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/vo/OrderModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/vo/OrderQueryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/web/OrderDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/web/OrderDetailWebModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/web/OrderWebModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/resources/myBatisConf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/order/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/order/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/order/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/order/query.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/order/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/order/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/orderDetail/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/orderDetail/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/orderDetail/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/orderDetail/query.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/orderDetail/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/orderDetail/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/static/css/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/static/js/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/static/js/jquery-1.11.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/tags/page.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/dao/StoreDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/dao/StoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/service/IStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/vo/StoreModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/vo/StoreQueryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/web/StoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/web/StoreWebModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/resources/myBatisConf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/jsp/store/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/jsp/store/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/jsp/store/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/jsp/store/query.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/jsp/store/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/jsp/store/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/static/css/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/static/js/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/static/js/jquery-1.11.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/tags/page.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web.war" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web/META-INF/maven/com.xxw/customermgr/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web/META-INF/maven/com.xxw/customermgr/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web/META-INF/maven/com.xxw/customermgr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web/META-INF/maven/com.xxw/customermgr/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web/WEB-INF/jsp/goodsmgr/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web/WEB-INF/jsp/goodsmgr/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web/WEB-INF/jsp/goodsmgr/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web/WEB-INF/jsp/goodsmgr/query.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web/WEB-INF/jsp/goodsmgr/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web/WEB-INF/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/customermgr/META-INF/maven/com.xxw/customermgr/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/customermgr/META-INF/maven/com.xxw/customermgr/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/customermgr/META-INF/maven/com.xxw/customermgr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/customermgr/META-INF/maven/com.xxw/customermgr/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/customermgr/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/customermgr/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/customermgr/WEB-INF/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/customermgr/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/goodsmgrweb/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/goodsmgrweb/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/goodsmgrweb/WEB-INF/jsp/goodsmgr/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/goodsmgrweb/WEB-INF/jsp/goodsmgr/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/goodsmgrweb/WEB-INF/jsp/goodsmgr/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/goodsmgrweb/WEB-INF/jsp/goodsmgr/query.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/goodsmgrweb/WEB-INF/jsp/goodsmgr/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/goodsmgrweb/WEB-INF/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/goodsmgrweb/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/goodsmgrweb/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.xxw/goodsmgrweb/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cartmgr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cartmgr/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr.war" beforeDir="false" afterPath="$PROJECT_DIR$/cartmgr/target/cartmgr.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customermgr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customermgr/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customermgr/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customermgr/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customermgr/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customermgr/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customermgr/target/customermgr.war" beforeDir="false" afterPath="$PROJECT_DIR$/customermgr/target/customermgr.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customermgr/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customermgr/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgr/target/goodsmgr-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgr/target/goodsmgr-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/dao/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/dao/GoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/web/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/web/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goodsmgr/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goods/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goodsmgr/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goods/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goodsmgr/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goods/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goodsmgr/query.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goods/query.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goodsmgr/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goods/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb.war" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb/WEB-INF/jsp/goodsmgr/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb/WEB-INF/jsp/goodsmgr/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb/WEB-INF/jsp/goodsmgr/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb/WEB-INF/jsp/goodsmgr/query.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb/WEB-INF/jsp/goodsmgr/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb/WEB-INF/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordermgr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ordermgr/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr.war" beforeDir="false" afterPath="$PROJECT_DIR$/ordermgr/target/ordermgr.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ordermgr/target/ordermgr/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storemgr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storemgr/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storemgr/src/main/webapp/store.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storemgr/target/storemgr.war" beforeDir="false" afterPath="$PROJECT_DIR$/storemgr/target/storemgr.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storemgr/target/storemgr/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storemgr/target/storemgr/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/architecture1web/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -39,39 +187,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="GoodsMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/dao/GoodsMapper.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/web/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customermgr/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/service/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="108">
+              <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,57 +200,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myBatisConf.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/resources/myBatisConf.xml">
+      <file leaf-file-name="jquery-1.11.0.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/static/js/jquery-1.11.0.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="722">
+              <caret line="9541" column="6" lean-forward="true" selection-start-line="9541" selection-start-column="6" selection-end-line="9541" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/resources/spring-mvc.xml">
+      <file leaf-file-name="OrderDetailController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/web/OrderDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="233">
+              <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/dao/GoodsDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/architecture1/common/dao/BaseDAO.java">
+      <file leaf-file-name="OrderDetailMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/dao/OrderDetailMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/resources/logback.xml">
+        <entry file="file://$PROJECT_DIR$/ordermgr/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="285">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myBatisConf.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ordermgr/src/main/resources/myBatisConf.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/orderDetail/add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/dao/OrderMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/jsp/cart/add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goods/query.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -150,36 +297,20 @@
     <findStrings>
       <find>packaging</find>
       <find>getByUuid</find>
+      <find>getByConditionPage</find>
+      <find>resource</find>
       <find>sishuok</find>
     </findStrings>
     <replaceStrings>
       <replace>xxw</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/goodsmgrweb/pom.xml" />
-        <option value="$PROJECT_DIR$/storemgr/pom.xml" />
-        <option value="$PROJECT_DIR$/architecture1web/pom.xml" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customermgr/vo/CustomerModel.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/customermgr/src/resources/myBatisConf.xml" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/pageutil/Page.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/pageutil/PagePlugin.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/pageutil/ReflectHelper.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customermgr/vo/CustomerQueryModel.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customermgr/dao/CustomerDAO.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customermgr/dao/CustomerMapper.xml" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/comm/dao/Client.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customermgr/Client.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/common/Client.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/common/dao/CustomerDAO.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/xxw/architecture1/common/dao/BaseDAO.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/dao/CustomerDAO.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/xxw/architecture1/common/serviec/IBaseService.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/xxw/architecture1/common/vo/BaseModel.java" />
         <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/service/ICustomerService.java" />
         <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/vo/CustomerQueryModel.java" />
         <option value="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/web.xml" />
@@ -201,15 +332,36 @@
         <option value="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/dao/GoodsDAO.java" />
         <option value="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/service/IGoodsService.java" />
         <option value="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/web/GoodsWebModel.java" />
-        <option value="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/web/GoodsController.java" />
-        <option value="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/xxw/architecture1/common/service/BaseService.java" />
         <option value="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/customermgr/src/main/resources/myBatisConf.xml" />
         <option value="$PROJECT_DIR$/goodsmgrweb/src/main/resources/myBatisConf.xml" />
+        <option value="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/xxw/architecture1/common/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/customermgr/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/goodsmgrweb/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/customermgr/pom.xml" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/goodsmgrweb/pom.xml" />
+        <option value="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/dao/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goods/query.jsp" />
+        <option value="$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/web/GoodsController.java" />
+        <option value="$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/dao/CartDAO.java" />
+        <option value="$PROJECT_DIR$/cartmgr/pom.xml" />
+        <option value="$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/web/CartController.java" />
+        <option value="$PROJECT_DIR$/cartmgr/src/main/resources/myBatisConf.xml" />
+        <option value="$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/dao/CartMapper.xml" />
+        <option value="$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/dao/StoreDAO.java" />
+        <option value="$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/dao/StoreMapper.xml" />
+        <option value="$PROJECT_DIR$/storemgr/src/main/resources/myBatisConf.xml" />
+        <option value="$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/web/StoreController.java" />
+        <option value="$PROJECT_DIR$/storemgr/pom.xml" />
+        <option value="$PROJECT_DIR$/ordermgr/pom.xml" />
+        <option value="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/vo/OrderModel.java" />
+        <option value="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/web/OrderController.java" />
+        <option value="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/web/OrderDetailController.java" />
+        <option value="$PROJECT_DIR$/ordermgr/src/main/resources/myBatisConf.xml" />
+        <option value="$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/dao/OrderMapper.xml" />
       </list>
     </option>
   </component>
@@ -237,35 +389,23 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="architecture1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="architecture1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="445" />
-    <option name="y" value="51" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,35 +416,25 @@
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="customermgr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -312,7 +442,7 @@
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -321,7 +451,7 @@
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -331,7 +461,7 @@
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -342,32 +472,45 @@
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xxw" type="462c0819:PsiDirectoryNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xxw" type="462c0819:PsiDirectoryNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xxw" type="462c0819:PsiDirectoryNode" />
+              <item name="architecture1" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="architecture1" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -375,7 +518,7 @@
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -383,16 +526,38 @@
             <path>
               <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
               <item name="architecture1" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsmgrweb" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="architecture1" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="architecture1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="architecture1" type="462c0819:PsiDirectoryNode" />
+              <item name="ordermgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="orderDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -400,7 +565,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/goodsmgrweb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ordermgr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -409,27 +574,27 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace-intellij\architecture1\ordermgr\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\workspace-intellij\architecture1\ordermgr\src\main" />
+      <recent name="D:\workspace-intellij\architecture1\cartmgr\src\main" />
+      <recent name="D:\workspace-intellij\architecture1\goodsmgrweb\src\main\webapp\WEB-INF" />
+      <recent name="D:\workspace-intellij\architecture1\goodsmgrweb\src\main\webapp\WEB-INF\jsp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.xxw" />
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace-intellij\architecture1\goodsmgrweb\src\main\webapp\WEB-INF" />
-      <recent name="D:\workspace-intellij\architecture1\goodsmgrweb\src\main" />
-      <recent name="D:\workspace-intellij\architecture1\goodsmgrweb\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\workspace-intellij\architecture1\goodsmgr\src\main\java\com\xxw\architecture1" />
-      <recent name="D:\workspace-intellij\architecture1\customermgr\src\main\webapp\WEB-INF\jsp\customer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xxw.architecture1.common.web" />
       <recent name="com.xxw.architecture1.goodsmgr" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace-intellij\architecture1\goodsmgrweb\src\main\webapp\WEB-INF" />
-      <recent name="D:\workspace-intellij\architecture1\goodsmgrweb\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\workspace-intellij\architecture1\customermgr\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\workspace-intellij\architecture1\customermgr\src\main" />
-      <recent name="D:\workspace-intellij\architecture1\customermgr\src\main\java\com\xxw\architecture1\customermgr\dao" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace-intellij\architecture1\ordermgr\src\main\webapp\WEB-INF\jsp\orderDetail" />
+      <recent name="D:\workspace-intellij\architecture1\ordermgr\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\workspace-intellij\architecture1\ordermgr\src\main\java\com\xxw\architecture1" />
+      <recent name="D:\workspace-intellij\architecture1\ordermgr\src\main\webapp\WEB-INF\jsp\order" />
+      <recent name="D:\workspace-intellij\architecture1\ordermgr\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -444,7 +609,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.goods">
+  <component name="RunManager" selected="Maven.order">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xxw.architecture1.customer.Client" />
       <module name="customermgr" />
@@ -474,6 +639,44 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="cart" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-Djetty.port=8080" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.mortbay.jetty:maven-jetty-plugin:6.1.22:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cartmgr" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
     </configuration>
     <configuration name="customer" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -547,6 +750,82 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/goodsmgrweb" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="order" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-Djetty.port=8080" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.mortbay.jetty:maven-jetty-plugin:6.1.22:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/ordermgr" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="store" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-Djetty.port=8080" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.mortbay.jetty:maven-jetty-plugin:6.1.22:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/storemgr" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -683,6 +962,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Maven.cart" />
+      <item itemvalue="Maven.store" />
+      <item itemvalue="Maven.order" />
       <item itemvalue="Maven.goods" />
       <item itemvalue="Maven.customer" />
       <item itemvalue="Maven.web" />
@@ -709,12 +991,13 @@
       <workItem from="1528465399039" duration="5252000" />
       <workItem from="1528508592605" duration="30980000" />
       <workItem from="1528594474371" duration="1074000" />
-      <workItem from="1528625655969" duration="4626000" />
+      <workItem from="1528625655969" duration="5334000" />
+      <workItem from="1528719666066" duration="6892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46519000" />
+    <option name="totallyTimeSpent" value="54119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -722,26 +1005,26 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.53333336" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3294893" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.3184569" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3184569" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970346" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3960396" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.37953794" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.50082374" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.5" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32994923" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31770045" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2700454" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -749,8 +1032,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.33113673" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3294893" />
@@ -793,383 +1076,355 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init model success" />
+    <option name="LAST_COMMIT_MESSAGE" value="init model success" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/pageutil/ReflectHelper.java">
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="385">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/pageutil/PagePlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/dao/CustomerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/architecture1/common/vo/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="27" column="97" selection-start-line="27" selection-start-column="97" selection-end-line="27" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/service/ICustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/util/json/JsonHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/util/format/DateFormatHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/tags/page.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/static/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/pageutil/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/vo/CustomerQueryModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Development/Maven/repository/org/springframework/spring-aop/4.0.0.RELEASE/spring-aop-4.0.0.RELEASE.jar!/org/springframework/aop/framework/AdvisedSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Development/Maven/repository/org/springframework/spring-aop/4.0.0.RELEASE/spring-aop-4.0.0.RELEASE.jar!/org/springframework/aop/target/SingletonTargetSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Development/Maven/repository/org/springframework/spring-aop/4.0.0.RELEASE/spring-aop-4.0.0.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7942">
-          <caret line="460" selection-start-line="460" selection-end-line="460" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/vo/CustomerModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/web/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/query.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/web/CustomerWebModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/architecture1/common/web/BaseWebModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgr/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgr/src/main/java/com/xxw/architecture1/goodsmgr/vo/GoodsModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/static/js/application.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/service/IGoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/web/GoodsWebModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/vo/GoodsModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="40" lean-forward="true" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/architecture1/common/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/dao/CustomerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/resources/myBatisConf.xml">
+    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goods/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/web/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/architecture1/common/service/IBaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/resources/myBatisConf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/architecture1/common/dao/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/dao/GoodsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/dao/GoodsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="202">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/pom.xml">
+    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/java/com/xxw/architecture1/goodsmgr/web/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/xxw/architecture1/customer/service/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="-614">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/static/js/application.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/jsp/cart/success.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1810">
+          <caret line="101" column="20" selection-start-line="90" selection-start-column="27" selection-end-line="101" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/dao/CartDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/web/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/web/CartWebModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/vo/CartQueryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/vo/CartModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/resources/myBatisConf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/java/com/xxw/architecture1/cartmgr/dao/CartMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/vo/StoreModel.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/dao/StoreDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/static/js/application.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/jsp/store/add.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/jsp/store/success.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/dao/StoreMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/src/main/resources/myBatisConf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="83" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/web/StoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/src/main/java/com/xxw/architecture1/storemgr/service/IStoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodsmgrweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="92" column="20" selection-start-line="81" selection-end-line="92" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/static/js/application.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/order/success.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="91" column="20" selection-start-line="80" selection-start-column="27" selection-end-line="91" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/dao/OrderDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/service/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/vo/OrderModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/vo/OrderDetailQueryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/vo/OrderQueryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/vo/OrderDetailModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/xxw/util/format/DateFormatHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/web/OrderDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/dao/OrderDetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/resources/myBatisConf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/webapp/WEB-INF/jsp/orderDetail/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/dao/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartmgr/src/main/webapp/WEB-INF/jsp/cart/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/jsp/goods/query.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordermgr/src/main/java/com/xxw/architecture1/ordermgr/web/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storemgr/src/main/webapp/WEB-INF/static/js/jquery-1.11.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="9541" column="6" lean-forward="true" selection-start-line="9541" selection-start-column="6" selection-end-line="9541" selection-end-column="6" />
         </state>
       </provider>
     </entry>

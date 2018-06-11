@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!-- 定义别名 -->
+    <typeAliases>
+        <typeAlias type="com.xxw.architecture1.storemgr.vo.StoreModel" alias="StoreM" />
+        <typeAlias type="com.xxw.architecture1.storemgr.vo.StoreQueryModel" alias="StoreQM" />
+    </typeAliases>
+
+    <plugins>
+        <!-- 添加分页插件 -->
+        <plugin interceptor="com.xxw.pageutil.PagePlugin">
+            <property name="dialect" value="mysql" />
+            <property name="pageSqlId" value=".*Page.*" />
+        </plugin>
+    </plugins>
+
+</configuration>

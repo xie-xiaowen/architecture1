@@ -20,7 +20,7 @@ import com.xxw.util.json.JsonHelper;
 @RequestMapping(value="/goods")
 public class GoodsController {
 	@Autowired
-	private IGoodsService iservice = null;
+	private IGoodsService goodsService = null;
 	
 	@RequestMapping(value="toAdd",method=RequestMethod.GET)
 	public String toAdd(){
@@ -29,29 +29,29 @@ public class GoodsController {
 	}
 	@RequestMapping(value="add",method=RequestMethod.POST)
 	public String add(@ModelAttribute("m") GoodsModel m){
-		iservice.create(m);
+		goodsService.create(m);
 		return "goods/success";
 	}
 	@RequestMapping(value="toUpdate/{uuid}",method=RequestMethod.GET)
 	public String toUpdate(Model model,@PathVariable("uuid") int uuid){
-		GoodsModel m = iservice.getByUuid(uuid);
+		GoodsModel m = goodsService.getByUuid(uuid);
 		model.addAttribute("m", m);
 		return "goods/update";
 	}
 	@RequestMapping(value="update",method=RequestMethod.POST)
 	public String post(@ModelAttribute("m") GoodsModel m){
-		iservice.update(m);
+		goodsService.update(m);
 		return "goods/success";
 	}
 	@RequestMapping(value="toDelete/{uuid}",method=RequestMethod.GET)
 	public String toDelete(Model model,@PathVariable("uuid") int uuid){
-		GoodsModel m = iservice.getByUuid(uuid);
+		GoodsModel m = goodsService.getByUuid(uuid);
 		model.addAttribute("m", m);
 		return "goods/delete";
 	}
 	@RequestMapping(value="delete",method=RequestMethod.POST)
 	public String post(@RequestParam("uuid") int uuid){
-		iservice.delete(uuid);
+		goodsService.delete(uuid);
 		return "goods/success";
 	}
 	@RequestMapping(value="toList",method=RequestMethod.GET)
@@ -70,7 +70,7 @@ public class GoodsController {
 			qm.getPage().setPageShow(wm.getPageShow());
 		}
 		
-		Page dbPage = iservice.getByConditionPage(qm);
+		Page dbPage = goodsService.getByConditionPage(qm);
 		
 		//
 		model.addAttribute("wm", wm);
