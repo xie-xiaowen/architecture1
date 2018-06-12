@@ -6,4 +6,6 @@ import com.xxw.architecture1.customer.vo.CustomerQueryModel;
 
 public interface ICustomerService extends IBaseService<CustomerModel, CustomerQueryModel> {
 
+    public CustomerModel getByCustomerId(String customerId);
+
 }

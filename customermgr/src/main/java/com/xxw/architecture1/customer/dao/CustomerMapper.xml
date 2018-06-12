@@ -2,6 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.xxw.architecture1.customer.dao.CustomerDAO">
 
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
+
     <insert id="create" parameterType="CM">
         insert into tbl_customer(customerId, pwd, showName, trueName, registerTime)
         values(#{customerId}, #{pwd}, #{showName}, #{trueName}, #{registerTime})
@@ -37,6 +39,12 @@
                 and showName = #{showName}
             </if>
         </where>
+    </select>
+
+    <select id="getCustomerById" parameterType="String" resultType="CM">
+        select uuid, customerId, pwd, showName, trueName, registerTime
+        from tbl_customer
+        where customerId = #{customerId}
     </select>
     
     

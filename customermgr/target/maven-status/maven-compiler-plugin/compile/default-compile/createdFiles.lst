@@ -1,8 +1,0 @@
-com\xxw\architecture1\customer\web\CustomerController.class
-com\xxw\architecture1\customer\web\CustomerWebModel.class
-com\xxw\architecture1\customer\dao\CustomerDAO.class
-com\xxw\architecture1\customer\service\CustomerService.class
-com\xxw\architecture1\customer\vo\CustomerQueryModel.class
-com\xxw\architecture1\customer\vo\CustomerModel.class
-com\xxw\architecture1\customer\Client.class
-com\xxw\architecture1\customer\service\ICustomerService.class

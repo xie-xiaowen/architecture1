@@ -2,9 +2,10 @@ package com.xxw.architecture1.common.vo;
 
 import com.xxw.pageutil.Page;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class BaseModel {
+public class BaseModel implements Serializable {
 
     private int uuid;  // uuid 唯一标识
     private Page page = new Page();

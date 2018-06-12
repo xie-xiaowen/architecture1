@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface CustomerDAO extends BaseDAO<CustomerModel, CustomerQueryModel> {
 
+    public CustomerModel getCustomerById(String customerId);
 
 }
