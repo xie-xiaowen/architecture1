@@ -13,18 +13,18 @@
        http://www.springframework.org/schema/tx
        http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-    <!--&lt;!&ndash; 开启注解扫描 &ndash;&gt;
+    <!-- 开启注解扫描 -->
     <context:component-scan base-package="com.xxw">
-        &lt;!&ndash; 凡是有annotation注解的排除在外，因为Controller是SpringMVC来处理 &ndash;&gt;
+        <!-- 凡是有annotation注解的排除在外，因为Controller是SpringMVC来处理 -->
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
     </context:component-scan>
 
-    &lt;!&ndash; 支持Spring代理类，默认只代理接口 &ndash;&gt;
+    <!-- 支持Spring代理类，默认只代理接口 -->
     <aop:aspectj-autoproxy proxy-target-class="true" />
-    &lt;!&ndash; 开启事物注解 &ndash;&gt;
+    <!-- 开启事物注解 -->
     <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true" />
 
-    &lt;!&ndash; 配置数据库连接池 &ndash;&gt;
+    <!-- 配置数据库连接池 -->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource" />
     </bean>
@@ -35,18 +35,18 @@
         <property name="password" value="root" />
     </bean>
 
-    &lt;!&ndash; Spring与MyBatis的集成是有MyBatis提供的 &ndash;&gt;
+    <!-- Spring与MyBatis的集成是有MyBatis提供的 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
         <property name="configLocation" value="classpath:myBatisConf.xml" />
         <property name="mapperLocations" value="classpath*:com/xxw/**/*Mapper.xml" />
     </bean>
-    &lt;!&ndash; 自动生成DAO实现 &ndash;&gt;
+    <!-- 自动生成DAO实现 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.xxw" />
-        &lt;!&ndash; 只扫描注解Repository的类 &ndash;&gt;
+        <!-- 只扫描注解Repository的类 -->
         <property name="annotationClass" value="org.springframework.stereotype.Repository" />
-    </bean>-->
+    </bean>
 
 
 </beans>

@@ -4,8 +4,8 @@
 
     <!-- 定义别名 -->
     <typeAliases>
-        <typeAlias type="com.xxw.architecture1.customer.vo.CustomerModel" alias="CM" />
-        <typeAlias type="com.xxw.architecture1.customer.vo.CustomerQueryModel" alias="CQM" />
+        <!--<typeAlias type="com.xxw.architecture1.customer.vo.CustomerModel" alias="CM" />
+        <typeAlias type="com.xxw.architecture1.customer.vo.CustomerQueryModel" alias="CQM" />-->
     </typeAliases>
 
     <plugins>
