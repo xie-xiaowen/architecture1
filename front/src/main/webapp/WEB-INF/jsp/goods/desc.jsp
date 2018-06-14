@@ -14,34 +14,20 @@
 <%@taglib prefix="myTag" tagdir="/WEB-INF/tags" %>
 
 
-<table width="70%" align="center">
-<tr>
-		<td colspan=4><a href="${pageContext.request.contextPath}/toCart">查看购物车</a></td>
+<table width="50" align="center">
+	<tr>
+		<td colspan=2><a href="${pageContext.request.contextPath}/toCart">查看购物车</a></td>
 	</tr>
-<c:set var="num" value="0"></c:set>
-<c:forEach var="m" items="${page.result}">
-	<c:if test="${num==0}">
-		<tr>
-	</c:if>
-		<td>
-			<a href="${pageContext.request.contextPath}/toGoodsDesc/${m.uuid}">
-			<table>
-				<tr>
-					<td><img alt="" src="${pageContext.request.contextPath}/static/images/img01.jpg"/></td>
-					<td>${m.description }</td>
-				</tr>
-				<tr>
-					<td>${m.name }</td>
-				</tr>
-			</table>
-			</a>
-		</td>
-		<c:set var="num" value="${num+1}"></c:set>
-	<c:if test="${num==3}">
-		<c:set var="num" value="0"></c:set>
-		</tr>
-	</c:if>
-</c:forEach>
+	<tr>
+		<td><img alt="" src="${pageContext.request.contextPath}/static/images/img01.jpg"/></td>
+		<td>${m.description }</td>
+	</tr>
+	<tr>
+		<td>${m.name}</td>
+	</tr>
+	<tr>
+		<td><a href="${pageContext.request.contextPath}/addToCart/${m.uuid}">加入购物车</a></td>
+	</tr>
 </table>
 
 </body>

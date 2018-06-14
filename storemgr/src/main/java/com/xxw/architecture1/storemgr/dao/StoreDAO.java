@@ -8,5 +8,7 @@ import com.xxw.architecture1.storemgr.vo.StoreQueryModel;
 
 @Repository
 public interface StoreDAO extends BaseDAO<StoreModel,StoreQueryModel>{
-	
+
+    public StoreModel getOrderNumByGoodsUuid(int goodsUuid);
+
 }

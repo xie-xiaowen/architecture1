@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<form action="{pageContext.request.contextPath}/login" method="post">
+<form action="${pageContext.request.contextPath}/login" method="post">
     <table>
         <tr>
             <td>用户名：</td>

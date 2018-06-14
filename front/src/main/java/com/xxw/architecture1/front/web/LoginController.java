@@ -2,8 +2,13 @@ package com.xxw.architecture1.front.web;
 
 import com.xxw.architecture1.customer.service.ICustomerService;
 import com.xxw.architecture1.customer.vo.CustomerModel;
+import com.xxw.architecture1.goodsmgr.service.IGoodsService;
+import com.xxw.architecture1.goodsmgr.vo.GoodsModel;
+import com.xxw.architecture1.goodsmgr.vo.GoodsQueryModel;
+import com.xxw.pageutil.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -34,7 +39,7 @@ public class LoginController {
         Cookie cookie = new Cookie("MyLogin", cm.getUuid()+","+System.currentTimeMillis());
         response.addCookie(cookie);
 
-        return "index";
+        return "redirect:/toIndex";
     }
 
 

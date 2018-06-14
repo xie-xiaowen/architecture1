@@ -17,7 +17,7 @@
     <select id="getByUuid" parameterType="int" resultType="StoreM">  
         select * from tbl_store where uuid=#{uuid}
     </select>  
-    <select id="getByConditionPage" parameterType="StoreQM" resultType="StoreM">  
+    <select id="getByConditionPage" parameterType="StoreQM" resultType="StoreM">
         select * from tbl_store
         <where>
         	<if test="uuid!=null &amp;&amp; uuid > 0">
@@ -25,5 +25,11 @@
         	</if>  
         	
         </where>
-    </select> 
+    </select>
+
+    <!-- 根据商品UUID查询商品库存 -->
+    <select id="getOrderNumByGoodsUuid" parameterType="int" resultType="StoreM">
+        SELECT storeNum FROM tbl_store WHERE goodsUuid = #{goodsUuid}
+    </select>
+
 </mapper>

@@ -4,8 +4,18 @@
 
     <!-- 定义别名 -->
     <typeAliases>
-        <!--<typeAlias type="com.xxw.architecture1.customer.vo.CustomerModel" alias="CM" />
-        <typeAlias type="com.xxw.architecture1.customer.vo.CustomerQueryModel" alias="CQM" />-->
+        <typeAlias type="com.xxw.architecture1.customer.vo.CustomerModel" alias="CM" />
+        <typeAlias type="com.xxw.architecture1.customer.vo.CustomerQueryModel" alias="CQM" />
+        <typeAlias type="com.xxw.architecture1.cartmgr.vo.CartModel" alias="CartM" />
+        <typeAlias type="com.xxw.architecture1.cartmgr.vo.CartQueryModel" alias="CartQM" />
+        <typeAlias type="com.xxw.architecture1.goodsmgr.vo.GoodsModel" alias="GM" />
+        <typeAlias type="com.xxw.architecture1.goodsmgr.vo.GoodsQueryModel" alias="GQM" />
+        <typeAlias type="com.xxw.architecture1.ordermgr.vo.OrderModel" alias="OM" />
+        <typeAlias type="com.xxw.architecture1.ordermgr.vo.OrderQueryModel" alias="OQM" />
+        <typeAlias type="com.xxw.architecture1.ordermgr.vo.OrderDetailModel" alias="ODM" />
+        <typeAlias type="com.xxw.architecture1.ordermgr.vo.OrderDetailQueryModel" alias="ODQM" />
+        <typeAlias type="com.xxw.architecture1.storemgr.vo.StoreModel" alias="StoreM" />
+        <typeAlias type="com.xxw.architecture1.storemgr.vo.StoreQueryModel" alias="StoreQM" />
     </typeAliases>
 
     <plugins>
