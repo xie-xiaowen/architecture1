@@ -52,59 +52,12 @@
             <artifactId>storemgr</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.xxw</groupId>
             <artifactId>front</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
-        </dependency>-->
-        <dependency>
-            <groupId>com.xxw</groupId>
-            <artifactId>common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.xxw</groupId>
-            <artifactId>customermgr</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
-            <classifier>api</classifier>
-        </dependency>
-        <dependency>
-            <groupId>com.xxw</groupId>
-            <artifactId>cartmgr</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
-            <classifier>api</classifier>
-        </dependency>
-        <dependency>
-            <groupId>com.xxw</groupId>
-            <artifactId>goodsmgrweb</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
-            <classifier>api</classifier>
-        </dependency>
-        <dependency>
-            <groupId>com.xxw</groupId>
-            <artifactId>ordermgr</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
-            <classifier>api</classifier>
-        </dependency>
-        <dependency>
-            <groupId>com.xxw</groupId>
-            <artifactId>storemgr</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
-            <classifier>api</classifier>
-        </dependency>
-        <dependency>
-            <groupId>com.xxw</groupId>
-            <artifactId>front</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
-            <classifier>api</classifier>
         </dependency>
     </dependencies>
 
@@ -112,13 +65,13 @@
         <finalName>architecture1web</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
-                <!--<plugin>
+                <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
                     <version>2.4</version>
                     <configuration>
                         <overlays>
-                            <overlay>
+                            <!--<overlay>
                                 <groupId>com.xxw</groupId>
                                 <artifactId>customermgr</artifactId>
                             </overlay>
@@ -137,14 +90,14 @@
                             <overlay>
                                 <groupId>com.xxw</groupId>
                                 <artifactId>storemgr</artifactId>
-                            </overlay>
+                            </overlay>-->
                             <overlay>
                                 <groupId>com.xxw</groupId>
                                 <artifactId>front</artifactId>
                             </overlay>
                         </overlays>
                     </configuration>
-                </plugin>-->
+                </plugin>
                 <plugin>
                     <artifactId>maven-clean-plugin</artifactId>
                     <version>3.0.0</version>
@@ -178,17 +131,14 @@
                     <groupId>org.eclipse.jetty</groupId>
                     <artifactId>jetty-maven-plugin</artifactId>
                     <version>9.4.3.v20170317</version>
+                    <!-- Config: contextPath and Port (Default:8080) -->
                     <configuration>
-                        <scanIntervalSeconds>10</scanIntervalSeconds>
+                        <httpConnector>
+                            <port>8080</port>
+                        </httpConnector>
                         <webAppConfig>
-                            <contextPath>/</contextPath>
+                            <contextPath>/cart</contextPath>
                         </webAppConfig>
-                        <connectors>
-                            <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
-                                <port>8080</port>
-                                <maxIdleTime>60000</maxIdleTime>
-                            </connector>
-                        </connectors>
                     </configuration>
                 </plugin>
             </plugins>

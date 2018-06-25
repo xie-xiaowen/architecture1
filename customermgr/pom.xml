@@ -38,17 +38,14 @@
                     <groupId>org.eclipse.jetty</groupId>
                     <artifactId>jetty-maven-plugin</artifactId>
                     <version>9.4.3.v20170317</version>
+                    <!-- Config: contextPath and Port (Default:8080) -->
                     <configuration>
-                        <scanIntervalSeconds>10</scanIntervalSeconds>
+                        <httpConnector>
+                            <port>8080</port>
+                        </httpConnector>
                         <webAppConfig>
-                            <contextPath>/customer</contextPath>
+                            <contextPath>/cart</contextPath>
                         </webAppConfig>
-                        <connectors>
-                            <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
-                                <port>8080</port>
-                                <maxIdleTime>60000</maxIdleTime>
-                            </connector>
-                        </connectors>
                     </configuration>
                 </plugin>
                 <plugin>
