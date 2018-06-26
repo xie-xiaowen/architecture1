@@ -16,12 +16,12 @@
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
-    <properties>
+    <!--<properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-
+-->
     <dependencies>
         <dependency>
             <groupId>com.xxw</groupId>
@@ -47,18 +47,6 @@
                             <contextPath>/cart</contextPath>
                         </webAppConfig>
                     </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-war-plugin</artifactId>
-                    <configuration>
-                        <!--注意增加这两行，在打包时相关的类会被独立打成jar -->
-                        <attachClasses>true</attachClasses>
-                        <classesClassifier>api</classesClassifier>
-                    </configuration>
-                    <version>2.4</version>
-                    <executions>
-                    </executions>
                 </plugin>
             </plugins>
         </pluginManagement>
