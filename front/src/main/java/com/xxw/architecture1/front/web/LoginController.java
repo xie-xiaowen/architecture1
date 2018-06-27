@@ -36,7 +36,7 @@ public class LoginController {
         CustomerModel cm = customerService.getByCustomerId(customerId);
         if(cm == null) return "login";
 
-        Cookie cookie = new Cookie("MyLogin", cm.getUuid()+","+System.currentTimeMillis());
+        Cookie cookie = new Cookie("MyLogin", cm.getUuid()+"#"+System.currentTimeMillis());
         response.addCookie(cookie);
 
         return "redirect:/toIndex";

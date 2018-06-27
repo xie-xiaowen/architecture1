@@ -59,7 +59,7 @@ public class IndexController {
 
     @RequestMapping(value = "/addToCart/{goodsUuid}", method = RequestMethod.GET)
     public String addToCart(@PathVariable("goodsUuid")int goodsUuid, @CookieValue("MyLogin") String myLogin){
-        int customerUuid = Integer.valueOf(myLogin.split(",")[0]);
+        int customerUuid = Integer.valueOf(myLogin.split("#")[0]);
         CartModel cart = new CartModel();
         cart.setBuyNum(1);
         cart.setGoodsUuid(goodsUuid);
@@ -70,13 +70,13 @@ public class IndexController {
 
     @RequestMapping(value = "/toCart", method = RequestMethod.GET)
     public String toCart(@CookieValue("MyLogin") String myLogin, Model model){
-        int customerUuid = Integer.valueOf(myLogin.split(",")[0]);
+        int customerUuid = Integer.valueOf(myLogin.split("#")[0]);
         CartQueryModel cqm = new CartQueryModel();
         cqm.setCustomerUuid(customerUuid);
         cqm.getPage().setPageShow(100);
         Page<CartModel> page = cartService.getByConditionPage(cqm);
         model.addAttribute("page", page);
-        return "/cart/myCart";
+        return "cart/myCart";
     }
 
     /**
@@ -87,7 +87,7 @@ public class IndexController {
     @RequestMapping(value = "/order", method = RequestMethod.GET)
     public String order(@CookieValue("MyLogin")String myLogin){
         // 1.获取当前用户UUID
-        int customerUuid = Integer.valueOf(myLogin.split(",")[0]);
+        int customerUuid = Integer.valueOf(myLogin.split("#")[0]);
         // 查询当前用户购物车中所有商品
         CartQueryModel cqm = new CartQueryModel();
         cqm.getPage().setPageShow(10000);
